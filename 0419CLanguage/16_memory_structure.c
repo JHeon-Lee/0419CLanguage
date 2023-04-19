@@ -39,7 +39,7 @@ void fct(int n);
 
 int main()
 {
-    int num1 = 10;
+    int num1 = 10; // num1 = 10 할당
     fct(num1); // 매개변수 n 에 10 할당 후 num2 = 12 할당
     num1++; // num2 소멸, n 소멸, num1 증가
     fct(num1); // 매개변수 n 에 10 할당 후 num2 = 12 할당, num2 소멸, n 소멸
