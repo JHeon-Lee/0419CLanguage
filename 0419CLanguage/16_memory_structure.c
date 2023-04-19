@@ -42,7 +42,7 @@ int main()
     int num1 = 10; // num1 = 10 할당
     fct(num1); // 매개변수 n 에 10 할당 후 num2 = 12 할당
     num1++; // num2 소멸, n 소멸, num1 증가
-    fct(num1); // 매개변수 n 에 10 할당 후 num2 = 12 할당, num2 소멸, n 소멸
+    fct(num1); // 매개변수 n 에 11 할당 후 num2 = 12 할당, num2 소멸, n 소멸
 
     // register : 가장 접근이 빠른 저장공간에 변수 할당, 크기가 매우 작음, 잘 안쓰임
 
